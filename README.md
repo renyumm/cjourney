@@ -27,7 +27,7 @@ cc.fit_on_actions(df, 'event')
 cc.actions_to_sequences(cusid='personid', event='event', timestamp='cdate')
 cc.padding(50, sampsize=10000)
 ```
-![cjourney](cjourney.png)
+![cjourney](https://github.com/renyumm/cjourney/blob/main/cjourney.png)
 
 #### Next Version
 - 目前版本一行为一个客户的行为序列, 一个像素为一个动作. 下一版本中纵坐标可以替换为秒, 若一个动作持续时间较长, 则会占据多个像素位.
