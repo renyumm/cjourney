@@ -5,8 +5,7 @@
 <!-- <font face="Calibri"> -->
 
 ### Problem
-- 经常见到使用 sankey, funnel 或者其他一些图片来分析 app 中的 customer journey,但是这些方式聚都是合一段时间的数据,粒度太大且是单向的.
-
+- 经常使用 sankey, funnel 或者其他方式来解析 app 中的 customer journey, 但只能展示几个关键步骤的转化, 并不能描述客户在 app 内的整个行为流程
 ### Idea
 - 最近看到了一些东西, Airbnb 的一篇关于 Embedding 的的论文以及 Tensorflow 的图像和文本处理 API. 每个客户的行为都可以编成序列, 用颜色编码行为并进行 Padding, 排序后就可以绘制一张customer journey map. 相似行为的客户序列会聚集在一起形成区域性的色块.
 
